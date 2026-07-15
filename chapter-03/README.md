@@ -1,16 +1,18 @@
-# Chapter 3 — Scaled-Down Production Pipeline
+# Chapter 3 — A Scaled-Down Production Data Pipeline
 
-**Notebook pending.** This chapter's notebook applies the Open-Sora / HunyuanVideo principles
-introduced in Chapter 2 at a smaller scale: filtering, deduplication, and annotation.
+`notebooks/chapter_3_companion_notebook.ipynb`
 
-The book (p68) promises: "In our notebook for Chapter 3, we will apply the same principles at a
-smaller scale, showing how filtering, deduplication, and annotation..."
+Chapter 2 introduces the concepts and foundational tools for working with video datasets.
+This chapter applies the same principles used by Open-Sora and HunyuanVideo at a smaller
+scale, showing how filtering, deduplication, and annotation turn raw clips into a dataset
+that is actually usable for training.
 
-Once built, publish from Colab (**File → Save a copy in GitHub**) to:
+Pipeline stages covered:
 
-```
-chapter-03/notebooks/chapter_3_companion_notebook.ipynb
-```
+1. Ingest — load the curated source clips and record baseline metadata
+2. Filtering — resolution, motion, clarity, and aesthetic thresholds
+3. Deduplication — remove near-duplicate clips and redundant scenes
+4. Annotation — generate captions and metadata for the surviving clips
+5. Dataset assembly — write the training-ready dataset and summary statistics
 
-Then the p68 link becomes:
-https://github.com/jenochs/video-ai-book-companion/blob/main/chapter-03/notebooks/chapter_3_companion_notebook.ipynb
+> This notebook is actively being finalized ahead of publication.
