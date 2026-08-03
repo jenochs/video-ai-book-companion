@@ -50,11 +50,19 @@ Working through the companion notebook, you will:
 - Video Processing Pipelines for AI
 - Summary
 
-## Notebook
+## Notebooks
+
+### Pet video gallery and pipeline
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jenochs/video-ai-book-companion/blob/main/chapter-02/notebooks/Chapter2_Enhanced_Pet_Pipeline_v2.ipynb)
+
+`notebooks/Chapter2_Enhanced_Pet_Pipeline_v2.ipynb` is the working dataset notebook for the chapter. It downloads the nine pet videos used throughout the hands-on sections, builds the thumbnail gallery and interactive preview player, and runs the processing pipeline against real files. Start here if you want to see the dataset the chapter works with. Also available as a [live Colab copy](https://colab.research.google.com/drive/1wSmWhxXmlP85C_roKJXVlHL-S0UHGGlQ).
+
+### Full chapter walkthrough
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jenochs/video-ai-book-companion/blob/main/chapter-02/notebooks/chapter_2_companion_notebook.ipynb)
 
-`notebooks/chapter_2_companion_notebook.ipynb` contains every hands-on example from the chapter, from workspace setup through the complete end to end pipeline. The easiest way to run it is Colab, which already includes ffmpeg, OpenCV, and everything else the notebook needs.
+`notebooks/chapter_2_companion_notebook.ipynb` contains every hands-on example from the chapter, from workspace setup through the complete end to end pipeline. The easiest way to run either notebook is Colab, which already includes ffmpeg, OpenCV, and everything else they need.
 
 ## Reusable modules
 
