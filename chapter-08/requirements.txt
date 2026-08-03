@@ -1,0 +1,12 @@
+# Chapter 8 - From Models to Systems
+# The companion notebook and src/ modules are standard-library Python (3.10+)
+# apart from the typed-boundary demo.
+pydantic>=2.6
+
+# Optional: only needed if you extend the in-notebook handler demos into a
+# real localhost service, as the chapter's reference architecture does.
+# fastapi>=0.110
+# uvicorn>=0.29
+
+# Local notebook execution (Colab already provides this).
+jupyterlab>=4.0
