@@ -1,0 +1,15 @@
+# Chapter 1 companion requirements.
+# The book's known-good reference environment pins diffusers==0.33.1 and
+# transformers==4.52.4; the looser bounds below stay compatible with it.
+torch>=2.0
+diffusers>=0.33
+transformers>=4.52
+accelerate
+safetensors
+imageio
+imageio-ffmpeg
+opencv-python
+scikit-image
+numpy
+matplotlib
+jupyter
