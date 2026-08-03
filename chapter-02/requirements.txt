@@ -1,0 +1,19 @@
+# Chapter 2 companion requirements
+#
+# Note: FFmpeg is a system dependency, not a pip package. Install the
+# ffmpeg binary separately (see the Running locally section in README.md):
+#   Ubuntu/Debian: sudo apt-get install ffmpeg
+#   macOS:         brew install ffmpeg
+# Google Colab already ships with ffmpeg preinstalled.
+
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+requests>=2.31
+matplotlib>=3.7
+
+# Optional: production-grade scene detection discussed in the chapter
+scenedetect>=0.6
+
+# Optional: Python bindings for FFmpeg (still requires the ffmpeg binary)
+ffmpeg-python>=0.2
