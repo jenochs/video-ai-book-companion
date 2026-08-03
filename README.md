@@ -1,4 +1,4 @@
-# Video Generation with AI — Companion Repository
+# Video Generation with AI - Companion Repository
 
 Companion code for the book **Video Generation with AI** by Joseph Enochs (O'Reilly).
 
@@ -9,22 +9,29 @@ organized by chapter on the `main` branch.
 
 ## Layout
 
+Each chapter folder follows the same structure:
+
 ```
-chapter-02/
+chapter-NN/
   notebooks/   # Jupyter/Colab notebooks
   src/         # Python modules and scripts
   assets/      # configs, sample inputs, and supporting files
-chapter-03/
-chapter-08/
 ```
+
+Applies to chapter-01 through chapter-08.
 
 ## Chapters
 
-| Chapter | Contents |
-| ------- | -------- |
-| [chapter-02](chapter-02/) | Understanding and preparing video data — the pet-video pipeline |
-| [chapter-03](chapter-03/) | A scaled-down production data pipeline — filtering, deduplication, annotation |
-| [chapter-08](chapter-08/) | Building a custom extension across three platforms (LTX Desktop, InvokeAI, ComfyUI) |
+| Chapter | Title | Status |
+| ------- | ----- | ------ |
+| [chapter-01](chapter-01/) | Foundations of Video Generation | Notebook available |
+| [chapter-02](chapter-02/) | Understanding and Preparing Video Data for Model Training | Notebook available |
+| [chapter-03](chapter-03/) | Implementing Video Generation Pipelines | In progress |
+| [chapter-04](chapter-04/) | Training Video Generation Models | In progress |
+| [chapter-05](chapter-05/) | Fine-Tuning for Specific Video Tasks | In progress |
+| [chapter-06](chapter-06/) | Vision-Language Models for Video Understanding | In progress |
+| [chapter-07](chapter-07/) | Audiovisual Synchronization with Cross-Modal Fusion | In progress |
+| [chapter-08](chapter-08/) | From Models to Systems | In progress |
 
 ## Getting started
 
@@ -33,8 +40,8 @@ git clone https://github.com/jenochs/video-ai-book-companion.git
 cd video-ai-book-companion
 ```
 
-Notebooks are designed to run in Google Colab. Open any `.ipynb` above and use
-**Open in Colab**, or run them locally with Jupyter.
+Notebooks run in Google Colab via the **Open in Colab** badges in each chapter folder,
+or locally with Jupyter.
 
 ## License
 
