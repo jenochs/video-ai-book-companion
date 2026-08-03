@@ -1,0 +1,15 @@
+# Chapter 7 - Audiovisual Synchronization with Cross-Modal Fusion
+# Core requirements: everything needed for the companion notebook's
+# runnable content (CPU is fine).
+torch>=2.1
+torchaudio>=2.1
+einops>=0.7
+numpy>=1.24
+matplotlib>=3.7
+jupyter>=1.0
+ipython>=8.0
+
+# Optional: running the real LTX-2 pipelines requires cloning
+# https://github.com/Lightricks/LTX-2 and installing with `uv sync --frozen`
+# (see the Hands-On Implementation section of the notebook). Those packages
+# are not on PyPI and need a 24 GB+ VRAM GPU, so they are not pinned here.
