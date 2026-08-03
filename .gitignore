@@ -17,6 +17,19 @@ env/
 outputs/
 checkpoints/
 
+# Model caches
+.cache/
+huggingface/
+hf_cache/
+models--*/
+
+# Generated media
+*.mp4
+*.avi
+*.mov
+*.webm
+*.gif
+
 # OS / editor
 .DS_Store
 .vscode/

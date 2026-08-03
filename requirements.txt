@@ -1,0 +1,13 @@
+# Shared core dependencies for the Video Generation with AI companion repository.
+# Each chapter folder has its own, more specific requirements.txt; prefer that
+# file when working inside a single chapter.
+
+torch
+diffusers
+transformers
+accelerate
+opencv-python
+numpy
+matplotlib
+imageio
+jupyter
