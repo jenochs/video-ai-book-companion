@@ -1,0 +1,12 @@
+# Chapter 6 - Vision Language Models for Video Understanding
+torch>=2.1
+transformers>=4.45
+accelerate>=0.30
+qwen-vl-utils>=0.0.8
+decord>=0.6.0
+peft>=0.11
+datasets>=2.19
+numpy>=1.24
+
+# Optional: faster attention on supported NVIDIA GPUs
+# flash-attn  # install with: pip install flash-attn --no-build-isolation
