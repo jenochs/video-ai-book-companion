@@ -1,0 +1,26 @@
+# Chapter 5 companion requirements
+# Pinned to the versions installed by the companion notebook.
+torch>=2.1.0
+diffusers==0.35.2
+transformers==4.57.1
+accelerate==1.11.0
+peft==0.17.1
+bitsandbytes==0.41.1
+tensorboard==2.19.0
+moviepy==1.0.3
+imageio-ffmpeg==0.6.0
+huggingface-hub>=0.36.0
+safetensors>=0.6.2
+omegaconf==2.3.0
+einops==0.8.1
+
+# Used by the dataset, plotting, and comparison cells
+imageio
+requests
+tqdm
+matplotlib
+numpy
+Pillow
+
+# Optional: full supervised fine-tuning (SFT) only
+# deepspeed
